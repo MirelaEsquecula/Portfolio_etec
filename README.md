@@ -4,59 +4,54 @@
   <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-success?style=for-the-badge" alt="Status Concluído">
   <img src="https://img.shields.io/badge/Curso-AMS%20Desenvolvimento%20de%20Sistemas-8a2be2?style=for-the-badge" alt="Curso AMS DS">
   <img src="https://img.shields.io/badge/Institui%C3%A7%C3%A3o-ETEC%20%2F%20FATEC-blueviolet?style=for-the-badge" alt="ETEC Pedro Ferreira Alves">
+  <img src="https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel" alt="Deploy Vercel">
 </p>
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Visão Geral do Projeto
 
-Este é o meu **Portfólio Web One-Page**, desenvolvido como parte das atividades técnicas do curso integrado de **Desenvolvimento de Sistemas** pelo programa **AMS (Articulação Médio-Superior)** na **ETEC Pedro Ferreira Alves** em parceria com a **FATEC**.
+Este é o meu **Portfólio Web One-Page**, criado como parte das atividades técnicas do curso de **Desenvolvimento de Sistemas** pelo programa **AMS (Articulação Médio-Superior)** na **ETEC Pedro Ferreira Alves** (Mogi Mirim/SP) em parceria com a **FATEC**.
 
-O objetivo principal deste projeto é consolidar minha trajetória acadêmica e prática, apresentando habilidades técnicas em desenvolvimento *front-end*, projetos práticos, participações em eventos extracurriculares e conquistas científicas.
+O objetivo deste projeto é consolidar minha trajetória acadêmica e prática, apresentando habilidades *front-end*, projetos práticos, participação em eventos extracurriculares (ACPs) e conquistas científicas.
 
-Avisando aqui que utilizei a ajuda e auxílio do Gemini AI em diversos tópicos para o questionamento de tags, dúvidas e a criação deste README!
-
----
-
-## 🎨 Design System & Identidade Visual
-
-O projeto foi construído com uma estética moderna e tecnológica no padrão **Preto & Roxo Neon**:
-* **Fundo Principal:** Preto profundo (`#0a0a0c`) para alto contraste e conforto visual.
-* **Cores de Destaque:** Roxo vibrante (`#8a2be2`) e Roxo neon (`#a855f7`).
-* **Estilização de Cards:** Bordas translúcidas com iluminação *glow* interativa ao passar o cursor (*hover*).
-* **Responsividade Total:** Layout adaptado para smartphones, tablets e desktops através do *Grid System* e *Flexbox* do Bootstrap 5.
+🌐 **Acesse o projeto online no link:** [Portfólio na Vercel](https://portfolioesquecula.vercel.app)
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## 🤖 Mentoria & Auxílio de IA
 
-- **HTML5:** Estruturação semântica da aplicação (`<header>`, `<main>`, `<section>`, `<footer>`).
-- **CSS3:** Paleta personalizada, animações de brilho neon (*glow effects*) e ajustes finos.
-- **Bootstrap 5.3:** Componentes responsivos, *Grid System*, *Flexbox utilities* e *Carrossel*.
+Este projeto contou com o apoio e mentoria da inteligência artificial **Gemini (Google)** no papel de **DevMentor**. O auxílio foi utilizado para:
+* Refinamento e otimização do layout no padrão **Preto Profundo & Roxo Neon**.
+* Resolução de dúvidas de sintaxe e estilização no **Bootstrap 5**.
+* Organização lógica e cronológica de seções e componentes.
+* Apoio na estruturação da documentação e no processo de deploy na Vercel.
+
+---
+
+## 🛠️ Tecnologias e Bibliotecas Utilizadas
+
+- **HTML5 Semântico:** Estruturação semântica da aplicação (`<header>`, `<main>`, `<section>`, `<footer>`).
+- **CSS3:** Paleta de cores personalizada, animações e efeitos de brilho neon (*glow effects*).
+- **Bootstrap 5.3.2:** *Grid System*, utilitários de *Flexbox*, componentes responsivos e carrossel.
 - **Bootstrap Icons:** Ícones vetoriais modernos integrados ao layout.
-- **JavaScript (ES6+):** Interatividade, controle de componentes e *easter egg* na barra de navegação.
+- **JavaScript (ES6+):** Interatividade, controle de componentes e dinamismo.
 - **Git & GitHub:** Controle de versão e hospedagem do código-fonte.
-- **Vercel:** Plataforma de *deploy* e integração contínua.
+- **Vercel:** Hospedagem contínua e *deploy* da aplicação.
 
 ---
 
-## 🗂️ Estrutura do Portfólio
+## 📂 Estrutura de Arquivos e Pastas
 
-O portfólio está organizado em seções fluidas para navegação rápida:
-
-1. **Header & Navbar:** Menu fixo responsivo com links diretos para todas as seções e um *easter egg* interativo.
-2. **Sobre Mim & Trajetória AMS:** Apresentação pessoal e linha do tempo de evolução bimestral na ETEC.
-3. **Minhas Habilidades:** Cards interativos destacando *Hard Skills* (HTML5, CSS3, Bootstrap 5, JavaScript, Git/GitHub).
-4. **Projetos & Trabalhos Técnicos:** Destaques de projetos práticos, como o *Site com Formulário* e simulações de *IoT/SEIOT no Tinkercad*.
-5. **Atividades Extracurriculares (ACPs):** Trilhas verticais agrupando palestras e eventos.
-6. **Destaques & Premiações 2025:** Carrossel apresentando conquistas como o *Prêmio Ciência para Todos* e o evento *Espaço Verde*.
-7. **Sobre o Autor & Contato:** Cards para conexão profissional via E-mail Institucional CPS, LinkedIn e GitHub.
-8. **Rodapé:** Fechamento com identificação institucional do curso AMS.
-
----
-
-## 🔧 Como Rodar o Projeto Localmente
-
-1. **Clone este repositório:**
-   ```bash
-   git clone [https://github.com/MirelaEsquecula/Portfolio_etec.git](https://github.com/MirelaEsquecula/Portfolio_etec.git)
+```text
+portfolio_etec/
+├── css/
+│   └── style.css            # Estilizações customizadas e efeitos neon
+├── js/
+│   └── script.js           # Scripts de interatividade
+├── img/
+│   ├── mirela.jpg          # Foto de perfil
+│   ├── atividade1.png      # Imagem da palestra BeeCloud
+│   └── atividade5.png      # Imagem do evento Fatec Portas Abertas
+├── index.html              # Arquivo principal da aplicação (One-Page)
+└── README.md               # Documentação oficial do repositório
