@@ -55,3 +55,14 @@ portfolio_etec/
 │   └── atividade5.png      # Imagem do evento Fatec Portas Abertas
 ├── index.html              # Arquivo principal da aplicação (One-Page)
 └── README.md               # Documentação oficial do repositório
+
+
+## Mirela Vitória Esquecula
+
+Estudante de Desenvolvimento de Sistemas (AMS) • ETEC Pedro Ferreira Alves / FATEC
+
+✉️ E-mail Institucional: mirela.esquecula@aluno.cps.sp.gov.br
+
+💼 LinkedIn: Mirela Esquecula
+
+🐙 GitHub: @MirelaEsquecula
