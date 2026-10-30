@@ -1,0 +1,102 @@
+/* Linha do Tempo */
+.timeline-container .timeline-item:last-child {
+    border-left: 0 !important;
+}
+.timeline-container .badge {
+    left: -6px !important;
+}
+
+
+:root {
+    --fundo-principal: #0a0a0c;     /* Preto profundo e moderno */
+    --fundo-card: #121216;          /* Preto levemente mais claro para os cards */
+    --roxo-principal: #8a2be2;      /* Roxo vibrante */
+    --roxo-hover: #9370db;          /* Roxo claro para hover */
+    --roxo-brilho: #a855f7;         /* Roxo neon para textos de destaque */
+}
+
+
+body, html {
+    background-color: var(--fundo-principal) !important;
+    color: #f3f4f6 !important;
+}
+
+
+section, .bg-body-tertiary, .bg-body {
+    background-color: var(--fundo-principal) !important;
+}
+
+
+.card, .bg-body-tertiary .card {
+    background-color: var(--fundo-card) !important;
+    border: 1px solid rgba(138, 43, 226, 0.25) !important;
+    color: #f3f4f6 !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(138, 43, 226, 0.3) !important;
+}
+
+.btn-primary {
+    background-color: var(--roxo-principal) !important;
+    border-color: var(--roxo-principal) !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--roxo-hover) !important;
+    border-color: var(--roxo-hover) !important;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+}
+
+.btn-outline-primary {
+    color: var(--roxo-brilho) !important;
+    border-color: var(--roxo-principal) !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--roxo-principal) !important;
+    color: #ffffff !important;
+}
+
+
+.text-primary, .text-muted {
+    color: #a1a1aa !important; 
+}
+
+h1, h2, h3, h4, h5, h6, .fw-bold {
+    color: #ffffff !important;
+}
+
+.badge.bg-primary, .badge.bg-secondary {
+    background-color: var(--roxo-principal) !important;
+    color: #ffffff !important;
+}
+
+
+.texto-brilho {
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    cursor: default;
+}
+
+
+.texto-interativo:hover .texto-brilho {
+    color: #a855f7 !important; 
+    text-shadow: 0 0 8px rgba(168, 85, 247, 0.8),
+                 0 0 15px rgba(138, 43, 226, 0.6),
+                 0 0 25px rgba(138, 43, 226, 0.4);
+    transform: scale(1.02);
+}
+
+/* Foto de Perfil */
+.img-perfil {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-perfil:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.7) !important;
+}
